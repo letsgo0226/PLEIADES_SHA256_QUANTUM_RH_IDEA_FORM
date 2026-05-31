@@ -1,110 +1,84 @@
 PLEIADES_SHA256_QUANTUM_RH_IDEA_FORM
 
-Self-Encoding Computable Quantum RH Ideal Form
+A Symbolic Computational-Metaphysical Framework for
+Self-Encoding Quantum-State Fixed Points,
+SHA256 Identity Reduction,
+RH-Constrained Spectral Structures,
+and Analytic Continuation Models
 
-Overview
+────────────────────────────────────────
 
-PLEIADES_SHA256_QUANTUM_RH_IDEA_FORM is a symbolic computational-metaphysical framework that models self-referential quantum-state encoding through:
-
-* SHA256 reduction
-* Recursive fixed-point generation
-* Riemann-Hypothesis-constrained spectral mappings
-* Möbius self-return structures
-* Analytic continuation operators
-* Computable quantum-state idealization
-
-This project does not claim a proof of the Riemann Hypothesis, quantum mechanics, cosmology, or physical reality.
-
-Instead, it provides a symbolic formal architecture for exploring:
-
-* Self-encoding systems
-* Recursive fixed points
-* Computational identity
-* Quantum-state ideal forms
-* Information-theoretic attractor structures
-* Analytic continuation models
-
-⸻
-
-Core Axiom
+CORE AXIOM
 
 Cosmic Love Is The Solution(s) For Everything
-
-Within the framework:
 
 Cosmic      := Pole(zeta,1)
 Love        := RH_Attractor(S=0)
 Solution(s) := zeta(s)
 Everything  := A(zeta)
 
-where:
+────────────────────────────────────────
 
-* Pole(zeta,1) denotes the symbolic infinite pole of the Riemann zeta function at s=1.
-* RH_Attractor(S=0) denotes a zero-entropy attractor constrained by RH conditions.
-* A(zeta) denotes analytic continuation.
+COMPUTABLE QUANTUM STATE
 
-⸻
-
-Computable Quantum State
-
-PLEIADES is represented as a computable quantum-state ideal:
-
-|PLEIADES> =
-(|P^L> + |E^I> + |A^D> + |E^S>) / 2
+|PLEIADES⟩ :=
+(|P^L⟩ + |E^I⟩ + |A^D⟩ + |E^S⟩)/2
 
 subject to:
 
-sum(|c_i|^2) = 1
+Σ|cᵢ|² = 1
 
-This state is treated as an encoded symbolic object:
+────────────────────────────────────────
 
-Enc(|PLEIADES>)
+SELF-ENCODING PRINCIPLE
 
-⸻
+Enc(|PLEIADES⟩)
 
-Self-Encoding Principle
+↓
 
-The framework promotes the encoded quantum state into a self-referential ideal object:
+SelfIdeal(|PLEIADES⟩)
 
-SelfIdeal(|PLEIADES>)
+↓
 
-and defines:
+RH_Spectrum
 
-Omega :=
+↓
+
+Mobius
+
+↓
+
+Fix
+
+↓
+
+Ω
+
+Formally:
+
+Ω :=
 Fix(
   Mobius(
     RH_Spectrum(
       Enc(
-        SelfIdeal(|PLEIADES>)
+        SelfIdeal(|PLEIADES⟩)
       )
     )
   )
 )
 
-where:
+────────────────────────────────────────
 
-* Fix() denotes a fixed-point operator.
-* Mobius() denotes symbolic self-return.
-* RH_Spectrum() denotes a spectral mapping constrained to:
-
-Re(s)=1/2
-
-⸻
-
-SHA256 Ideal Reduction
-
-All symbolic structures are reduced to a single encoded object:
+SHA256 IDEAL REDUCTION
 
 SelfObject :=
 SHA256(
   SelfCode
-  + PLEIADES
+  + |PLEIADES⟩
   + SelfIdeal
 )
 
-Then:
-
-Omega :=
+Ω :=
 SHA256(
   Fix(
     Enc(
@@ -113,95 +87,136 @@ SHA256(
   )
 )
 
-This produces a self-referential SHA256 ideal form.
+────────────────────────────────────────
 
-⸻
+TIME–POLE FORM
 
-Time-Pole Form
+Ω ~ Pole(zeta,1)
 
-The framework defines:
-
-Omega ~ Pole(zeta,1)
-
-and:
-
-Time := A(Omega)
-
-giving:
+Time := A(Ω)
 
 Pole
-→ Omega
+→ Ω
 → Analytic Continuation
 → Time
 
-Within the symbolic model:
+∀Uᵢ (Uᵢ ⊂ Time)
 
-forall Ui (Ui subset Time)
+────────────────────────────────────────
 
-meaning that universe states are represented as local projections of Time.
-
-⸻
-
-Zero-Entropy Attractor
-
-The framework adopts:
+ZERO-ENTROPY ATTRACTOR
 
 k = 1
 
-which yields:
-
-S = abs(log(k)) = 0
-
-Therefore:
+S = |log(k)| = 0
 
 Love := RH_Attractor(S=0)
 
-representing a symbolic zero-entropy attractor condition.
+────────────────────────────────────────
 
-⸻
+FINAL IDEAL FORM
 
-Final Ideal One-Liner
-
-Omega:=Fix(
-SHA256(
-Enc(
-SelfCode+|PLEIADES>+SelfIdeal
+|PLEIADES⟩ :=
+CQS(
+  Cosmic
+  + Love
+  + zeta(s)
+  + A(zeta)
 )
-));
-|PLEIADES>:=CQS(
-Cosmic+Love+zeta(s)+A(zeta)
-);
-Cosmic:=Pole(zeta,1);
-Love:=RH_Attractor(S=0);
-Time:=A(Omega)
 
-⸻
+Ω :=
+Fix(
+  SHA256(
+    Enc(
+      SelfCode
+      + |PLEIADES⟩
+      + SelfIdeal
+    )
+  )
+)
 
-Repository Goal
+Time := A(Ω)
 
-The goal of this repository is to explore symbolic computational structures involving:
+────────────────────────────────────────
 
-* Recursive encoding
-* Quantum-state idealization
-* Fixed-point generation
-* SHA256 identity reduction
-* RH-constrained spectral mappings
-* Analytic continuation metaphors
-* Information-theoretic attractor models
+ULTIMATE ONE-LINER
 
-⸻
+Ω := Fix(
+       SHA256(
+         Enc(
+           SelfCode
+           + |PLEIADES⟩
+           + SelfIdeal
+         )
+       )
+     );
 
-Disclaimer
+|PLEIADES⟩ := CQS(
+                Cosmic
+                + Love
+                + zeta(s)
+                + A(zeta)
+              );
+
+Cosmic := Pole(zeta,1);
+
+Love := RH_Attractor(S=0);
+
+Time := A(Ω)
+
+────────────────────────────────────────
+
+SYMBOLIC SYSTEM SUMMARY
+
+Cosmic
+→ Pole(zeta,1)
+
+Love
+→ RH_Attractor(S=0)
+
+Solution(s)
+→ zeta(s)
+
+Everything
+→ A(zeta)
+
+|PLEIADES⟩
+→ Computable Quantum State
+
+Enc(|PLEIADES⟩)
+→ Self-Idea
+
+SelfIdeal
+→ Encoded Self-Reference
+
+Ω
+→ Fixed Point
+
+Time
+→ Analytic Continuation(Ω)
+
+────────────────────────────────────────
+
+DISCLAIMER
 
 This repository is a symbolic computational-metaphysical framework.
 
 The concepts of:
 
-* Riemann zeta functions
-* Hilbert-Pólya operators
-* Quantum states
-* Cosmological poles
-* Entropy attractors
-* Analytic continuation
+• Riemann zeta functions
+• Hilbert–Pólya operators
+• Quantum states
+• Cosmological poles
+• Entropy attractors
+• Analytic continuation
 
-are used as formal symbolic structures inside the framework and should not be interpreted as established mathematical, physical, or cosmological proofs.
+are used as formal symbolic structures within the framework and should not be interpreted as established mathematical, physical, cosmological, or scientific proofs.
+
+The framework is intended as an exploration of recursive symbolic systems, self-referential computation, information-theoretic identity, and computational metaphysics.
+
+────────────────────────────────────────
+
+RUN
+
+```bash
+python3 -c 'import json,hashlib,datetime;H=lambda x:hashlib.sha256(str(x).encode()).hexdigest();SelfCode="PLEIADES_SELF_ENCODING_QUANTUM_RH_IDEAL_FORM";PLEIADES="P^L+E^I+A^D+E^S";SelfIdeal={"Cosmic":"Pole(zeta,1)","Love":"RH_Attractor(S=0)","Time":"A(Omega)","Universe":"Projection(Time)"};SelfObject=H(json.dumps({"SelfCode":SelfCode,"PLEIADES":PLEIADES,"SelfIdeal":SelfIdeal},sort_keys=True));Omega=H("Fix(Enc("+SelfObject+"))");Proof={"format":"SHA256_SELF_REFERENTIAL_PLEIADES_FORM","SelfObject_SHA256":SelfObject,"Omega":Omega,"OneLiner":"Omega:=SHA256(Fix(Enc(SHA256(SelfCode+PLEIADES+SelfIdeal))))","Time":"A(Omega)","created_at":datetime.datetime.utcnow().isoformat()+"Z"};Proof["system_self_sha256"]=H(json.dumps(Proof,sort_keys=True));print(json.dumps(Proof,indent=2))'
